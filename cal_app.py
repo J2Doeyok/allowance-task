@@ -6,6 +6,7 @@ Welcome to my simple calculator app. 🤗\n1. Addition
 3. Multiplication
 4. Division
 5. Exponentiation
+6. Floor division
 *******************************************************''')
 # Addition operation
 
@@ -57,7 +58,15 @@ second_number = input("second_number:\n>>")
 exp = float(first_number) ** float(second_number)
 print(f"{first_number} ** {second_number} = {exp:.2f}")
 
-
+# Floor division operation
+print("***************************************")
+print("Floor division")
+print("Enter two numbers to perform exponentiation operation")
+# Prompt user to enter first & second number and store it
+first_number = input("first_number:\n>>")
+second_number = input("second_number:\n>>")
+floor_div = float(first_number) // float(second_number)
+print(f"{first_number} ** {second_number} = {floor_div:.2f}")
 
 
 
