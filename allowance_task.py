@@ -1,3 +1,4 @@
+# How i spent my weekly allowance
 
 allowance = 2000
 print(f"my weekly allowance is:{allowance}")
