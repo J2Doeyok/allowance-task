@@ -5,6 +5,7 @@ Welcome to my simple calculator app. 🤗\n1. Addition
 2. Subtraction
 3. Multiplication
 4. Division
+5. Exponentiation
 *******************************************************''')
 # Addition operation
 
@@ -13,8 +14,7 @@ print("Enter two numbers to perform addition operation")
 first_number = input("first_number:\n>>")
 second_number = input("second_number:\n>>")
 sum = float(first_number) + float(second_number)
-print(sum)
-print(f"{first_number} + {second_number} = {sum}")
+print(f"{first_number} + {second_number} = {sum:.2f}")
 
 # Subtraction operation
 
@@ -25,44 +25,37 @@ print("Enter two numbers to perform subtraction operation")
 first_number = input("first_number:\n>>")
 second_number = input("second_number:\n>>")
 sub = float(first_number) - float(second_number)
-print(sub)
-print(f"{first_number} + {second_number} = {sub}")
+print(f"{first_number} + {second_number} = {sub:.2f}")
 
 # Multiplication operation
- 20 
- 21 print("***************************************")
- 22 print("Multiplication")
- 23 print("Enter two numbers to perform multiplication operation")
- 24 # Prompt user to enter first & second number and store it
- 25 first_number = input("first_number:\n>>")
- 26 second_number = input("second_number:\n>>")
- 27 sub = float(first_number) * float(second_number)
- 28 print(mul)
- 29 print(f"{first_number} * {second_number} = {mul}")
+print("***************************************")
+print("Multiplication")
+print("Enter two numbers to perform multiplication operation")
+# Prompt user to enter first & second number and store it
+first_number = input("first_number:\n>>")
+second_number = input("second_number:\n>>")
+mul = float(first_number) * float(second_number)
+print(f"{first_number} * {second_number} = {mul:.2f}")
 
 # Division operation
- 20
- 21 print("***************************************")
- 22 print("Division")
- 23 print("Enter two numbers to perform division operation")
- 24 # Prompt user to enter first & second number and store it
- 25 first_number = input("first_number:\n>>")
- 26 second_number = input("second_number:\n>>")
- 27 sub = float(first_number) / float(second_number)
- 28 print(div)
- 29 print(f"{first_number} / {second_number} = {div}")
+print("***************************************")
+print("Division")
+print("Enter two numbers to perform division operation")
+# Prompt user to enter first & second number and store it
+first_number = input("first_number:\n>>")
+second_number = input("second_number:\n>>")
+div = float(first_number) / float(second_number)
+print(f"{first_number} / {second_number} = {div:.2f}")
 
 # Exponentiation operation
- 20
- 21 print("***************************************")
- 22 print("Exponentiation")
- 23 print("Enter two numbers to perform exponentiation operation")
- 24 # Prompt user to enter first & second number and store it
- 25 first_number = input("first_number:\n>>")
- 26 second_number = input("second_number:\n>>")
- 27 sub = float(first_number) ** float(second_number)
- 28 print(exp)
- 29 print(f"{first_number} ** {second_number} = {exp}")
+print("***************************************")
+print("Exponentiation")
+print("Enter two numbers to perform exponentiation operation")
+# Prompt user to enter first & second number and store it
+first_number = input("first_number:\n>>")
+second_number = input("second_number:\n>>")
+exp = float(first_number) ** float(second_number)
+print(f"{first_number} ** {second_number} = {exp:.2f}")
 
 
 
