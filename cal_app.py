@@ -68,6 +68,14 @@ second_number = input("second_number:\n>>")
 floor_div = float(first_number) // float(second_number)
 print(f"{first_number} ** {second_number} = {floor_div:.2f}")
 
-
+# modulo operation
+print("***************************************")
+print("Modulo")
+print("Enter two numbers to perform exponentiation operation")
+# Prompt user to enter first & second number and store it
+first_number = input("first_number:\n>>")
+second_number = input("second_number:\n>>")
+modulo = float(first_number) // float(second_number)
+print(f"{first_number} % {second_number} = {modulo:.2f}")
 
 
