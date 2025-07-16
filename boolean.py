@@ -1,7 +1,7 @@
 # boolean
 isMarried = True
 isMarried = False
-'''
+
 name = "Grace"
 first_name = "Jerry"
 print(bool(name))
@@ -11,8 +11,8 @@ goods = ""
 team = ""
 print(bool(goods))
 print(bool(team))
-'''
-# integer
+
+# integer & float
 
 number = 0.5 #True
 print(bool(number))
@@ -23,3 +23,5 @@ number_2 = 0 #False
 print(bool(number_2))
 number_3 = 0.0 #False
 print(bool(number_3))
+
+
